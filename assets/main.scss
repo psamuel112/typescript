@@ -1,0 +1,37 @@
+@import 'bootstrap/scss/bootstrap';
+
+.card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .user-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+
+  .back-button v-btn {
+    font-size: 1rem;
+    color: #007bff;
+  }
+  
+  .user-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .user-card {
+    background-color: white;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
