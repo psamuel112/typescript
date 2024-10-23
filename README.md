@@ -1,3 +1,9 @@
+# About project
+
+This project is built with TypeScript, Bootstrap, Vuetify, and Pinia, offering a smooth experience for managing users and navigating through user details. Dive into exploring how these technologies are integrated to create a seamless interface for handling user data.
+Error handling displays an error message is user data is not found.
+No enviromental variable was set for this application
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
